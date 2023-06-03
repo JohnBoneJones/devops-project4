@@ -20,3 +20,10 @@
 [2023-06-03 11:32:01,513] INFO in app: output prediction value:
 [20.35373177134412]
 127.0.0.1 - - [03/Jun/2023 11:32:01] "POST /predict HTTP/1.1" 200 -
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
