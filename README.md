@@ -51,14 +51,14 @@ source .devops/bin/activate
 
 ### Setup and Configure the docker locally
 Run the following command from bottom to top: 
- ./run_docker.sh
- ./make_prediction.sh
- ./upload_docker.sh
+* ./run_docker.sh
+* ./make_prediction.sh
+* ./upload_docker.sh
 ### Setup and Configure Kubernetes locally
 Run the following command from bottom to top:minikube start
- minikube start
- kubectl config view
- ./run_kubernetes.sh
- kubectl get pods
- ./make_prediction.sh
- kubectl logs <POD_NAME>
+* minikube start
+* kubectl config view
+* ./run_kubernetes.sh
+* kubectl get pods
+* ./make_prediction.sh
+* kubectl logs <POD_NAME>
